@@ -1,0 +1,12 @@
+spring.datasource:
+  driverClassName: com.mysql.jdbc.Driver
+  url: jdbc:mysql://192.168.99.100:3306/study
+  username: root
+  password: test
+  schema: study
+
+graphite:
+  prefix: test
+  url: http://192.168.99.100
+  port: 2003
+

@@ -9,7 +9,7 @@ import java.util.Map;
 @Data
 @Configuration
 @ConfigurationProperties
-@PropertySource("classpath:git.properties")
+//@PropertySource("classpath:git.properties")
 public class GitRepositoryState {
 
   Map<String, String> git;
